@@ -36,12 +36,12 @@ function App() {
     <section className="App">
       <header className='header'>
         <div>
-        <img className='header__img' src={Rick} alt="Rick and Morty" />
+        {/* <img className='header__img' src={Rick} alt="Rick and Morty" /> */}
         <h1>Ricky and Morty</h1>
         </div>
       </header>
       
-    
+
       <form onSubmit={saveSubmit}>
         <input id='search' type="text" />
         <button>Search</button>

@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import LocationCont from './components/LocationCont'
 import Residents from './components/Residents'
-import Rick from './assets/img/obt.jpg'
+import Rick from './assets/img/fondo.png'
 
 
 function App() {
@@ -35,18 +35,18 @@ function App() {
   return (
     <section className="App">
       <header className='header'>
-        <div>
-        {/* <img className='header__img' src={Rick} alt="Rick and Morty" /> */}
-        <h1>Ricky and Morty</h1>
+        <img className="header__img" src={Rick} alt="" />
+        <div className="title__img">
+        <h1 className="header__text">Ricky and Morty</h1>
         </div>
       </header>
       
-
-      <form onSubmit={saveSubmit}>
+    <div className='form'>
+    <form onSubmit={saveSubmit}>
         <input id='search' type="text" />
-        <button>Search</button>
+        <button><i className="fa-solid fa-magnifying-glass"></i></button>
       </form>
-     
+    </div>
 
       <LocationCont location={location}/>
       

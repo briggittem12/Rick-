@@ -8,7 +8,7 @@ const LocationCont = ({location}) => {
 
   <article className='principal__card'>
       <h2 className='card__title'>{location?.name}</h2>
-      <ul className='features'>
+      <ul className='principal__features'>
         <li><span>Type: </span>{location?.type}</li>
         <li><span>Dimension: </span>{location?.dimension}</li>
         <li><span>Population: </span>{location?.residents.length}</li>

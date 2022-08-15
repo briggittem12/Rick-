@@ -12,13 +12,12 @@ const Residents = ({url}) => {
     <article className='card__contents'>
       <header>
         <img src={resident?.image} alt={`image of ${resident?.name}`} />
-        <div className='card__status'>
-          <div className='circle'></div>
-          <span className='status__content'>{resident?.status}</span>
-        </div>
       </header>
       <div className='cart__list'>
         <h3>{resident?.name}</h3>
+        <div className='status'>
+              <h4 className={resident?.status}>{resident?.status}</h4>
+        </div>
         <ul className='next__features'>
           <li><span>Specie: </span>{resident?.species}</li>
           <li><span>Origin: </span>{resident?.origin.name}</li>

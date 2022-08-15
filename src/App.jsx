@@ -43,7 +43,7 @@ function App() {
       
     <div className='form'>
     <form onSubmit={saveSubmit}>
-        <input id='search' type="text" />
+        <input id='search' type="text" placeholder="Search"/>
         <button><i className="fa-solid fa-magnifying-glass"></i></button>
       </form>
     </div>
@@ -59,7 +59,7 @@ function App() {
             />
           ))
         }
-      </div>
+      </div> 
     </section> 
   )
 }

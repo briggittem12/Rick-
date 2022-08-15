@@ -67,6 +67,7 @@ img{
 /*--CARD UBICATION--*/
 
 .principal__card {
+  width: 80%;
   border: 0 solid transparent;
   background: linear-gradient(#48678b, #4af833);
   box-shadow: 0px 1px 17px 1px rgba(86, 97, 85, 0.993); 
@@ -76,6 +77,7 @@ img{
 }
 .card__title{
   text-align: center;
+  margin-top: .2em;
 }
 .principal__features {
   list-style: none;

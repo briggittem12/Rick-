@@ -129,11 +129,11 @@ button {
 }
 
 .status h4 {
-  width: 3em;
+  width: 4em;
 }
 h4 {
   margin: 0;
-  padding-left: .4em;
+  padding-left: .2em;
 }
 .Alive {
   background: #4af833;
